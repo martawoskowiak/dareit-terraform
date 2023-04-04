@@ -23,8 +23,8 @@ resource "google_compute_instance" "dareit-vm-ci" {
   }
 }
 
-resource "google_storage_bucket" "terraform-state-file-dareit" {
-  name          = "terraform-state-file-dareit"
+resource "google_storage_bucket" "terraform-state-file-marta" {
+  name          = "terraform-state-file-marta"
   location      = "EU"
   force_destroy = true
 }
