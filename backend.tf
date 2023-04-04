@@ -1,7 +1,7 @@
 terraform {
   required_version = ">= 1.0.11"
   backend "gcs" {
-    bucket = "terraform-state-file-dareit"
+    bucket = "terraform-statefile-dareit"
     prefix = "dev"
   }
   required_providers {
